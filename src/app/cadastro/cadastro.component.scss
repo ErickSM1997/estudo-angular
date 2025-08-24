@@ -1,0 +1,146 @@
+
+    body {
+        margin: -8px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .centralizar-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #6C7A89;
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    .formulario {
+        background: #fff;
+        width: 600px;
+        height: auto;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* centraliza conteúdo horizontalmente */
+        justify-content: center;
+        /* centraliza verticalmente */
+        gap: 10px;
+        /* espaçamento entre os campos */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+
+    }
+
+    .formulario div {
+        width: 100%;
+        max-width: 600px;
+        /* largura máxima dos campos */
+    }
+
+
+    .linha {
+        display: flex;
+        gap: 10px;
+        /* espaço entre os campos */
+        align-items: flex-start;
+        /* alinha labels e inputs no topo */
+    }
+
+    .campo-cidade {
+        flex: 2;
+        /* ocupa mais espaço */
+    }
+
+    .campo-uf {
+        flex: 1;
+        /* ocupa menos espaço */
+    }
+
+    label,
+    input {
+        display: block;
+        width: 100%;
+    }
+
+    input,
+    select {
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+    }
+
+    .linha input {
+        width: 95%;
+    }
+
+    .linha select {
+        width: 110%;
+    }
+
+    /* Estiliza somente a h1 do formulário */
+    .formulario h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .centraliza-botao {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+
+    }
+
+    // /* Estilo geral para todos os botões */
+    // button {
+    //     padding: 10px 20px;
+    //     margin: 5px;
+    //     font-size: 16px;
+    //     background-color: #4CAF50;
+    //     color: white;
+    //     border: none;
+    //     border-radius: 8px;
+    //     cursor: pointer;
+    //     transition: background-color 0.3s ease;
+    //     /* Suaviza a transição de cor quando passar o mouse */
+    // }
+
+    // /* Estilo quando o mouse passa por cima do botão */
+    // button:hover {
+    //     background-color: #45a049;
+    // }
+
+    // /* Estilo para botões desabilitados */
+    // button:disabled {
+    //     background-color: #ccc;
+    //     cursor: not-allowed;
+    //     /* Cursor indicando que o botão está desabilitado */
+    // }
+
+    // /* Estilo específico para o botão de limpar */
+    // button#limpar {
+    //     background-color: #f44336;
+    // }
+
+    // /* Hover para o botão de limpar */
+    // button#limpar:hover {
+    //     background-color: #d32f2f;
+    // }
+
+    // /* Estilo para o botão da base de cadastros */
+    // button#base {
+    //     background-color: #2196F3;
+    // }
+
+    // /* Hover para o botão da base de cadastros */
+    // button#base:hover {
+    //     background-color: #1976D2;
+    // }
