@@ -8,7 +8,10 @@ import { ServicoComponent } from './servico/servico.component';
 import { CadastroFuncionarioComponent } from './cadastro-funcionario/cadastro-funcionario.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { MatInputModule } from '@angular/material/input';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { MatInputModule } from '@angular/material/input';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatInputModule
+    MatRadioModule,
+    MatFormFieldModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
