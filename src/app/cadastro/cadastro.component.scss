@@ -1,98 +1,121 @@
+// // body {
+// //     // margin: -8px;
+// //     // font-family: Arial, sans-serif;
+// //     // font-size: 16px;
+//     // color: #333;
+// // }
 
-    // // body {
-    // //     // margin: -8px;
-    // //     // font-family: Arial, sans-serif;
-    // //     // font-size: 16px;
-    //     // color: #333;
-    // // }
+.centralizar-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  width: 100vw;
+  height: 100vh;
+ 
+}
 
-    // .centralizar-div {
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //     background: #FFFFFF;
-    //     width: 100vw;
-    //     height: 100vh;
-
-    // }
-
-    // .formulario {
-    //     // background: #fff;
-    //     width: 600px;
-    //     // height: auto;
-    //     padding: 40px;
-    //     // display: flex;
-    //     // flex-direction: column;
-    //     // align-items: flex-start;
-    //     /* centraliza conteúdo horizontalmente */
-    //     justify-content: center;
-    //     /* centraliza verticalmente */
-    //     // gap: 10px;
-    //     /* espaçamento entre os campos */
-    //     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    //     border-radius: 10px;
-    //     background-color: #B3C7B0;
-    //     color: #E2E5E2;
-    //     border: 1px solid #000000;
-
-    // }
+.formulario {
+  // background: #fff;
+  width: 600px;
+  // height: auto;
+  padding: 40px;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: flex-start;
+  /* centraliza conteúdo horizontalmente */
+  justify-content: center;
+  /* centraliza verticalmente */
+  // gap: 10px;
+  /* espaçamento entre os campos */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #B3C7B0;
+  color: #E2E5E2;
+  border: 1px solid #000000;
+}
 
 
-    // .linha {
-    //     display: flex;
-    //     // gap: 10px;
-    //     /* espaço entre os campos */
-    //     align-items: flex-start;
-    //     /* alinha labels e inputs no topo */
-    // }
+.mat-form-field {
+  width: 100%;
+}
 
-    // .campo-cidade {
-    //     flex: 2;
-    //     /* ocupa mais espaço */
-    // }
+// .mat-radio-group {
+//   gap: 10px;
+// }
 
-    // .campo-uf {
-    //     flex: 1;
-    //     /* ocupa menos espaço */
-    // }
+.example-radio-group {
+  display: flex;
+  flex-direction:row;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.container-termo-de-uso {
+  margin: 5px;
+}
 
 
-    // input,
-    // select {
-    //     margin-bottom: 10px;
-    //     padding: 8px;
-    //     // border: 1px solid #ccc;
-    //     border-radius: 5px;
-    //     background-color: antiquewhite;
 
-    // }
+// .linha {
+//     display: flex;
+//     // gap: 10px;
+//     /* espaço entre os campos */
+//     align-items: flex-start;
+//     /* alinha labels e inputs no topo */
+// }
 
-    // .linha input {
-    //     width: 95%;
-    // }
+// .campo-cidade {
+//     flex: 2;
+//     /* ocupa mais espaço */
+// }
 
-    // .linha select {
-    //     width: 110%;
-    // }
+// .campo-uf {
+//     flex: 1;
+//     /* ocupa menos espaço */
+// }
 
-    // /* Estiliza somente a h1 do formulário */
-    // .formulario h1 {
-    //     text-align: center;
-    //     font-size: 32px;
-    //     font-weight: bold;
-    //     color: #E2E5E2;
-    //     margin-bottom: 30px;
-    //     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    // }
 
-    // .centraliza-botao {
-    //     justify-content: center;
-    //     display: flex;
-    //     gap: 10px;
+// input,
+// select {
+//     margin-bottom: 10px;
+//     padding: 8px;
+//     // border: 1px solid #ccc;
+//     border-radius: 5px;
+//     background-color: antiquewhite;
 
-    // }
+// }
 
-  .example-container {
+// .linha input {
+//     width: 95%;
+// }
+
+// .linha select {
+//     width: 110%;
+// }
+
+/* Estiliza somente a h1 do formulário */
+.formulario h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #E2E5E2;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.centraliza-botao {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+
+}
+
+.example-container {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -100,5 +123,3 @@
   right: 0;
   background: #eee;
 }
-
-    
