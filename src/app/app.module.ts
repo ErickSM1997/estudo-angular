@@ -9,8 +9,15 @@ import { CadastroFuncionarioComponent } from './cadastro-funcionario/cadastro-fu
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatRadioModule } from '@angular/material/radio';
-import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+ import {MatSidenavModule} from '@angular/material/sidenav'; 
+
 
 
 @NgModule({
@@ -26,8 +33,17 @@ import { MatSelectModule } from '@angular/material/select';
     BrowserAnimationsModule,
     MatButtonModule,
     MatRadioModule,
+    MatSelectModule,
+    MatInputModule,
     MatFormFieldModule,
-    MatSelectModule
+    FormsModule,
+    ReactiveFormsModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatCheckboxModule,
+    MatSidenavModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

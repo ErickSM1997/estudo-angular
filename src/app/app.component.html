@@ -1,10 +1,20 @@
-<header>
-<div class="menu">
-    <div class="itens-menu">
+<!-- <header>
+    <div class="menu">
+        <div class="itens-menu">
+            <button routerLink="/cadastro">Cadastrar cliente</button>
+            <button routerLink="/cadastro-funcionario">Cadastrar funcionário</button>
+            <button routerLink="/servico">Cadastrar serviço</button>
+        </div>
+    </div>
+</header> -->
+
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" opened>
         <button routerLink="/cadastro">Cadastrar cliente</button>
         <button routerLink="/cadastro-funcionario">Cadastrar funcionário</button>
         <button routerLink="/servico">Cadastrar serviço</button>
-    </div>
-</div>
-</header>
-<router-outlet></router-outlet>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
