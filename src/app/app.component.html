@@ -1,20 +1,13 @@
-<!-- <header>
-    <div class="menu">
-        <div class="itens-menu">
-            <button routerLink="/cadastro">Cadastrar cliente</button>
-            <button routerLink="/cadastro-funcionario">Cadastrar funcionário</button>
-            <button routerLink="/servico">Cadastrar serviço</button>
-        </div>
-    </div>
-</header> -->
-
 <mat-sidenav-container class="example-container">
-    <mat-sidenav mode="side" opened>
-        <button routerLink="/cadastro">Cadastrar cliente</button>
-        <button routerLink="/cadastro-funcionario">Cadastrar funcionário</button>
-        <button routerLink="/servico">Cadastrar serviço</button>
+    <mat-sidenav mode="side" opened class="sidenav">
+        <h2 class="logo">Domina Cortes</h2>
+        <div class="menu-botoes">
+            <div><button routerLink="/cadastro">Cadastrar cliente</button></div>
+            <div><button routerLink="/cadastro-funcionario">Cadastrar funcionário</button></div>
+            <div><button routerLink="/servico">Cadastrar serviço</button></div>
+        </div>
     </mat-sidenav>
-    <mat-sidenav-content>
+    <mat-sidenav-content class="centralizar">
         <router-outlet></router-outlet>
     </mat-sidenav-content>
 </mat-sidenav-container>
