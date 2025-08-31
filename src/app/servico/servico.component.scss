@@ -1,0 +1,94 @@
+
+*{
+  color: #124627;
+}
+// .centralizar-div {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background: #ECFDF5;
+//   width: 100vw;
+//   height: 100vh;
+ 
+// }
+
+// .formulario {
+//   // background: #fff;
+//   width: 600px;
+//   // height: auto;
+//   padding: 40px;
+//    justify-content: center;
+//    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//   border-radius: 10px;
+//   background-color: #FFFFFF;
+//   // color: #E2E5E2;
+//   border: 1px solid #000000;
+// }
+
+
+// .mat-form-field {
+//   width: 100%;
+// }
+
+// .mat-radio-group {
+//   gap: 10px;
+// }
+
+// .example-radio-group {
+//   display: flex;
+//   flex-direction:row;
+//   margin: 15px 0;
+//   align-items: flex-start;
+// }
+
+// .example-radio-button {
+//   margin: 5px;
+// }
+
+// .container-termo-de-uso {
+//   margin: 5px;
+// }
+
+// /* Estiliza somente a h1 do formulário */
+// .formulario h1 {
+//   text-align: center;
+//   font-size: 32px;
+//   font-weight: bold;
+//   // color: #E2E5E2;
+//   margin-bottom: 30px;
+//   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+// }
+
+// .centraliza-botao {
+//   justify-content: center;
+//   display: flex;
+//   gap: 10px;
+
+// }
+
+// .example-container {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   background: #eee;
+// }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 150px 100px 150px 0px;
+ 
+   
+}
+
+th,td {
+    border:1px solid;
+    // text-align: center;
+}
+
+th.mat-header-cell {
+    text-align: center;
+}
+
